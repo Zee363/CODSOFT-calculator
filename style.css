@@ -1,0 +1,45 @@
+.cal-container {
+  max-width: 400px;
+  margin: auto;
+  background-color: deeppink;
+  margin-top: 100px;
+  border-radius: 4px;
+}
+
+.grid-item input[type="number"] {
+  margin-top: 12px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center; 
+}
+
+.radio-container {
+      display: flex;
+      align-items: center;
+    }
+    .radio-container input[type="radio"] {
+      width: 20px;
+      height: 20px;
+    }
+    .radio-container label {
+      margin-left: 8px;
+      margin-right: 16px;
+      font-size: 1.6em;
+    }
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-item input [type="button"] {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  padding: 20px 10px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
